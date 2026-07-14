@@ -1,4 +1,4 @@
-package Condicionais;
+package Codições;
 
 public class ifEElse {
     public static void main(String[] args) {

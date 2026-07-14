@@ -27,16 +27,12 @@ public class EstudoSwitchCase {
                 System.out.println("Você escolheu Mike Ehrmantraut, e tem otimo gosto para personagem!");
                 break;
             case "quatro":
-                System.out.println("Você escolheu Jane Margolis, talvez vc deva pensar em suicidio");
+                System.out.println("Você escolheu Jane Margolis, talvez vc deva repensar seus gostos!!!!!");
                 break;
             default:
                 System.out.println("ERRO!!!! Personagem não encontrado! MELHORE");
 
         }
-
-
-
-
 
         scanner.close();
 
