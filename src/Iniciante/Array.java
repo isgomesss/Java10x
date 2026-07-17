@@ -1,3 +1,5 @@
+package Iniciante;
+
 public class Array {
     public static void main(String[] args) {
 
@@ -41,6 +43,9 @@ public class Array {
         System.out.println(array[2]);
 
         char [] letra = {'A','B'};
+
+        //Array 2d
+
 
     }
 }

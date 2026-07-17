@@ -1,6 +1,4 @@
-package TiposDeDados;
-
-import java.net.SocketTimeoutException;
+package Iniciante.TiposDeDados;
 
 public class DadosPrimitivos {
     public static void main(String[] args) {

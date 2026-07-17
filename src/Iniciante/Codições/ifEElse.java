@@ -1,4 +1,4 @@
-package Codições;
+package Iniciante.Codições;
 
 public class ifEElse {
     public static void main(String[] args) {

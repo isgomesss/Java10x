@@ -1,4 +1,4 @@
-package Codições;
+package Iniciante.Codições;
 
 import java.util.Scanner;
 
