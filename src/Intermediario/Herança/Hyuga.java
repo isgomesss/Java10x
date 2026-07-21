@@ -1,6 +1,9 @@
-package Intermediario;
+package Intermediario.Herança;
 
-public class Hyuga extends Ninja{
+import Intermediario.Ninja;
+
+public class Hyuga extends Ninja {
+
     public void ativaByakugan(){
         System.out.println("Eu sou a " + nome + ". E ativei o Byakugan");
     }
