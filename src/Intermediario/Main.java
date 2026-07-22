@@ -1,5 +1,9 @@
 package Intermediario;
 
+import Intermediario.Herança.Boruto;
+import Intermediario.Herança.Haruno;
+import Intermediario.Herança.Hyuga;
+
 import java.util.Scanner;
 
 public class Main {
@@ -34,6 +38,23 @@ public class Main {
         hinata.idade = 15;
         hinata.aldeia = "Aldeia da Foia";
         hinata.ativaByakugan();
+
+        // ninja Boruto = HERANÇA
+        Boruto boruto = new Boruto();
+        boruto.nome = "BORUTOOOOOOOOOOOOO";
+        boruto.ativarJougan();
+        boruto.ativarKarma();
+        boruto.modoSabio();
+
+        //POLIMORFISMO - METODO GERAL - HABILIDADE QUE TODO NINJA TEM
+
+        Uzumaki isadora = new Uzumaki();
+        isadora.nome = "Isadora Uzumaki";
+        isadora.habilidadeEspecial();
+
+        Uchiha joao = new Uchiha();
+        joao.nome = "Joao Uchiha";
+        joao.habilidadeEspecial();
 
 
 
