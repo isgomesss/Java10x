@@ -1,19 +1,14 @@
 package Intermediario.Construtores;
 
-import javax.xml.stream.util.StreamReaderDelegate;
+public abstract class Hogakes {
 
-public class Hogakes {
+    //Classe abstrata: nao pode criar um objeto
 
     String nome;
     int idade;
     boolean vivoOuNao;
     String aldeia;
     String missao;
-
-    public Hogakes(String aldeia, String missao){
-        this.aldeia = aldeia;
-        this.missao = missao;
-    }
 
     public Hogakes(String missao, String aldeia, boolean vivoOuNao, int idade, String nome) {
         this.missao = missao;
@@ -23,13 +18,25 @@ public class Hogakes {
         this.nome = nome;
     }
 
-    public Hogakes(String nome, int idade){
+
+    public abstract void sabedoriaHogakes();
+
+    public Hogakes(){}
+
+   /* public Hogakes(String aldeia, String missao){
+        this.aldeia = aldeia;
+        this.missao = missao;
+    }*/
+
+
+
+   /* public Hogakes(String nome, int idade){
         this.nome = nome;
         this.idade = idade;
         //construtor com argumentos
 
 
-
+*/
     }
-}
+
 
