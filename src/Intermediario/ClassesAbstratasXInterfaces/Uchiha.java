@@ -2,8 +2,8 @@ package Intermediario.ClassesAbstratasXInterfaces;
 
 public class Uchiha extends Ninja {
 
-    public Uchiha(String aldeia, String nome, int idade, int numeroDeMissoesConcluidas, RankNinja rank) {
-        super(aldeia, nome, idade, numeroDeMissoesConcluidas, rank);
+    public Uchiha(int idade, String aldeia, String nome) {
+        super(idade, aldeia, nome);
     }
 
     public void estrategiaDeBatalhaNinja(){

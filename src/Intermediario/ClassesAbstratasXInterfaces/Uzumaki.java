@@ -2,8 +2,8 @@ package Intermediario.ClassesAbstratasXInterfaces;
 
 public class Uzumaki extends Ninja implements NinjaInterface{
 
-    public Uzumaki(String aldeia, String nome, int idade, int numeroDeMissoesConcluidas, RankNinja rank) {
-        super(aldeia, nome, idade, numeroDeMissoesConcluidas, rank);
+    public Uzumaki(int idade, String aldeia, String nome) {
+        super(idade, aldeia, nome);
     }
 
     public void nomeNinja(){

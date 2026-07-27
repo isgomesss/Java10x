@@ -65,4 +65,8 @@ public abstract class Ninja implements EstrategiaDeBataha {
         System.out.println("Teste nq classe uchiha");
     }
 
+    @Override
+    public String toString() {
+        return "Meu nome é " +  nome + ", eu sou da aldeia " + aldeia + " e tenho " + idade + " anos";
+    }
 }
