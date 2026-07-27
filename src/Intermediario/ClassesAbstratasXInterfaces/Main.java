@@ -11,6 +11,7 @@ public class Main {
         naruto.tacarKunai();
         naruto.tacarUmaShuriken();
         naruto.estrategiaDeBatalhaNinja();
+        naruto.metodoProvisorio();
         System.out.println(" ");
 
         //obj uchiha
@@ -19,6 +20,9 @@ public class Main {
         itachi.nomeNinja();
         itachi.tacarKunai();
         itachi.estrategiaDeBatalhaNinja();
+        itachi.inteligenciaDeCombate();
+        itachi.inteligenciaDeCombate(180);
+        itachi.metodoProvisorio();
 
 
         //interface - todos os metodos sao obrigatoriamente abstrato - atributo estatico, precisa atribuir valor.
