@@ -2,7 +2,7 @@ package Intermediario.Herança;
 
 import Intermediario.Uzumaki;
 
-public class Boruto extends Uzumaki implements HyugaUzumaki {
+public class Boruto extends Ninja {
 
 
     public void ativarJougan() {

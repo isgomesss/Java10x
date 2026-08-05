@@ -1,7 +1,5 @@
 package Intermediario.Herança;
 
-import Intermediario.Ninja;
-
 public class Hyuga extends Ninja {
 
     public void ativaByakugan(){

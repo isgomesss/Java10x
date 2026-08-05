@@ -24,9 +24,11 @@ public abstract class ContaBancaria {
     }
 
     //----SALDO-------------------------------------------------------
+    /*
     public void setSaldo(double saldo){
         this.saldo = saldo;
     }
+    */
 
     public  double getSaldo(){
         return saldo;
@@ -34,15 +36,15 @@ public abstract class ContaBancaria {
 
     //--------METODOS-------------------------------------------------------
     //metodo para calcular rendimento:
-    public abstract void calcularRendimento();
+    public abstract double calcularRendimento();
 
     //metodo sacar
-    private void sacarValor(double valor){
-        if (saldo >= valor){
-            System.out.println("Saldo disponivel para saque!");
+     public boolean sacarValor(double valor){
+        if (saldo >= valor) {
+            saldo -= valor;
+
+            return true;
         }
-        else {
-            System.out.println("Saldo insuficiente para saque!");
-        }
-    }
+        return false;
+     }
 }

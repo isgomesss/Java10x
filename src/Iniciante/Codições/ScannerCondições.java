@@ -9,7 +9,6 @@ public class ScannerCondições {
          *Scanner: jeito de trazer o usuario para dentro da aplicação
         */
 
-
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Digite o nome do ninja: ");
