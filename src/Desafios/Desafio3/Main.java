@@ -1,4 +1,4 @@
-package Desafios.Desafios3;
+package Desafios.Desafio3;
 
 
 import java.util.Scanner;
