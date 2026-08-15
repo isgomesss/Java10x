@@ -34,7 +34,7 @@ public class Main {
         System.out.println("\nNinja na posição 5: " + listaNinjas.get(5));
 
         //Ninjas ordenados por nome:
-        Collections.sort(listaNinjas, Comparator.comparing(n -> n.nome));
+        Collections.sort(listaNinjas, Comparator.comparing(n -> n.idade));
 
         System.out.println("\nLista ordenada por nome:");
         for (Ninja n : listaNinjas) {
